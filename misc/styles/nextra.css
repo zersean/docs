@@ -1,0 +1,12 @@
+div[dir] > div[class~='nx-max-w-[90rem]'],
+nav[class~='nx-max-w-[90rem]'],
+footer > div[class~='nx-max-w-[90rem]'] {
+  width: 100%;
+  max-width: 100rem;
+}
+
+:root {
+  .nx-font-semibold {
+    font-weight: 500;
+  }
+}

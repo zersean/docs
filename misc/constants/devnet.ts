@@ -1,0 +1,37 @@
+export const l1ContractAddresses = {
+  AddressManager: '0x860aF52ECDC3b0Ce3CcE6835F328c177B741471f',
+  L1CrossDomainMessenger: '0xEf6C7Dd914E394322a54715cCc190Cd1E0f3DB8D',
+  L1CrossDomainMessengerProxy: '0x12AFB5D11c42Cce3A5c9a581e30bE717439A7E79',
+  L1ERC721Bridge: '0xB1A999911aD912CB0900ce2e2a2bDA8877763b7b',
+  L1ERC721BridgeProxy: '0x36B7E0aCebA6ee1eC9008357EB09d3A98C2B4CEa',
+  L1StandardBridge: '0x57321f1306cb5295eD9798DE1F0362C97e73705b',
+  L1StandardBridgeProxy: '0x580D0032D0Dbf27004798416a46593a0eD7300A0',
+  L2OutputOracle: '0xeE52F07b2D75e1426414e9dD885713d332db4E3f',
+  L2OutputOracleProxy: '0x7F1f99F628Da9b48dd25e9c1Ec18EF38C95f49A1',
+  OptimismMintableERC20Factory: '0x0831B5132CFC38847e886c026b62F1443C620e58',
+  OptimismMintableERC20FactoryProxy: '0xef1E021C32F184737a633DFc896C2D84927B6847',
+  OptimismPortal: '0x7C891410b1c627c83DE24C0f2cF8888708B20DA3',
+  OptimismPortalProxy: '0x638c749a52e102B3072979F7bE93c880996FBEB8',
+  ProxyAdmin: '0x775bc23593aF4cE04aCE7Aa723f1d67578aceFE1',
+  SystemConfig: '0xe03F6296EEE1475D4049D76F489800Ceb8aBAc77',
+  SystemConfigProxy: '0x39177317Ba96DaCD89Ad4B57BD22CE2686646836',
+};
+
+export const l2ContractAddresses = {
+  L2StandardBridgeProxy: '0x4200000000000000000000000000000000000010',
+  L2ToL1MessagePasser: '0x4200000000000000000000000000000000000016',
+  CrossDomainMessager: '0x4200000000000000000000000000000000000007',
+  wfrxEth: '0xfc00000000000000000000000000000000000006',
+};
+
+export const fraxTokenAddresses = {
+  FPI: { L1: '', L2: '' },
+  FPIS: { L1: '', L2: '' },
+  FRAX: { L1: '', L2: '' },
+  frxBTC: { L1: '', L2: '' },
+  frxETH: { L1: '', L2: '' },
+  FXS: { L1: '', L2: '' },
+  sFRAX: { L1: '', L2: '' },
+  sfrxETH: { L1: '', L2: '' },
+  wfrxETH: { L1: 'N/A', L2: '' },
+};

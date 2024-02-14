@@ -1,0 +1,25 @@
+---
+title: Running a Fraxtal Node
+description: A guide for setting up and running a Fraxtal Node.
+---
+
+## Hardware requirements
+
+We recommend running a node with no less than the following resources:
+
+- 16 GB RAM
+- 500GB of NVMe storage
+
+---
+
+## Running a Node
+
+1. Clone the [repo](https://github.com/FraxFinance/fraxtal-node).
+2. Copy the relevant file (`.env.testnet.SAMPLE`, `.env.mainnet.SAMPLE`) into a new file without the .SAMPLE suffix: (`.env.testnet`, `.env.mainnet`).
+3. Edit the resulting file as needed, such as using your own L1 RPC endpoint.
+4. Run `docker compose -f testnet.docker-compose.yml up`. Confirm you get a response:
+
+```bash
+curl -d '{"id":0,"jsonrpc":"2.0","method":"eth_getBlockByNumber","params":["latest",false]}' \
+  -H "Content-Type: application/json" http://127.0.0.1:8545
+```

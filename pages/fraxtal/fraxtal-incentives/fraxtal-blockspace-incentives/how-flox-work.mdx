@@ -1,0 +1,51 @@
+---
+title: How Blockspace Incentives Work
+lang: en-US
+---
+
+# How Blockspace Incentives Work
+
+## The Flox Algorithm
+
+The weekly Flox incentive for an EOA or contract is directly proportional to its Flox Rank. This ensures that participants are rewarded based on their activity and contribution to the network's vibrancy.
+
+For Smart Contracts, The incentive is calculated as the Contract Flox Rank multiplied by the **Contract FXTL Ratio**.
+
+$Contract_i \enspace weekly \enspace FXTL =FloxRank(Contract_i) \times Contracts \enspace FXTL \enspace Ratio$
+
+For EOAs, The incentive is determined by the EOA Flox Rank multiplied by the **EOAs FXTL Ratio**.
+
+$EOA_j \enspace weekly \enspace FXTL =FloxRank(EOA_j) \times EOAs \enspace FXTL \enspace Ratio$
+
+## Flox Rank
+
+The Flox Rank, inspired by the [PageRank algorithm](https://en.wikipedia.org/wiki/PageRank), is recalculated on a per epoch basis (weekly at first) to reflect the dynamic participation across the network. It measures the importance and activity level of each participant within the chain.
+
+For contracts, the Flox Rank is a function of the gas used in transactions involving them, multiplied by the square root of the Flox Rank of the EOAs interacting with them. This means that contracts engaged by heavy users of the network are deemed more economically significant and thus assigned to a higher rank.
+
+$FloxRank(Contract_i) = \displaystyle\sum_{j=1}^N GasFee(Contract_i,EOAj) \times BoostFunction(EOAj) \times \sqrt{FloxRank(EOAj)}$
+
+On the flip side, the Flox Rank for EOAs is determined by their interaction with contracts, especially those heavily utilized by others on the network. The more an EOA engages with popular contracts, the higher its Flox Rank. The algorithm encourages users to interact with widely-used contracts rather than trying to maximize their incentives through lesser-used or self-owned contracts.
+
+$FloxRank(EOAj) = \displaystyle\sum_{i=1}^M GasFee(Contract_i,EOAj) \times BoostFunction(Contract_i) \times \sqrt{FloxRank(Contract_i)}$
+
+The computation of Flox Rank will be performed iteratively. To ensure accuracy and transparency, the Flox Algorithm is open source and ran each epoch off-chain with hash proofs posted onchain. This method ensures that the Flox Rank reflects the most current and relevant data, supporting a fair and dynamic incentive distribution.
+
+## Boost Function
+
+The rank and, subsequently, the incentives can be amplified through a boost function, which considers the amount of veFXS owned and the significance or tier-based weights assigned by the Fraxtal team to specific smart contracts and asset balances in EOA and/or smart contract accounts. This function is designed to reward long-term aligned users and protocols that have higher veFXS balances.
+
+## Future Flox Algorithm Updates
+
+As the Fraxtal ecosystem grows and different types of transactions should be incentivized, the Flox Algorithm can be modified through governance to include additional rewards for L3 portal contracts deployed to Fraxtal to allow appchains and L3s on Fraxtal to earn rewards for choosing Fraxtal as their hub over other chains. Additionally, transactions such as blob data can be rewarded independently as well to encourage use of Fraxtal as a DA layer if certain conditions are met (such as the existence of a portal/inbox contract for the associated chain on Fraxtal).
+
+## Flox Incentive Distribution
+
+Incentives are distributed in the form of FXTL points and assigned directly to each contract or EOA. The distribution logic is implemented in the FloxIncentivesDistributor smart contract.
+
+{/* FloxIncentivesDistributor: [FloxIncentivesDistributor.sol](https://github.com/FraxFinance/dev-fraxchain-contracts/blob/add-flox-points/src/contracts/flox/FloxIncentivesDistributor.sol) */}
+{/* [Contract Address] [Current contract distribute veFXS] */}
+
+{/* ## Example */}
+
+{/* [4 contracts + 2 EOA] */}

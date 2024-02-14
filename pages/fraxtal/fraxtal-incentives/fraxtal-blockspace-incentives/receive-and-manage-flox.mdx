@@ -1,0 +1,17 @@
+---
+title: How to Receive and Manage Flox Incentives
+lang: en-US
+---
+
+# How to Receive and Manage Flox Incentives
+
+## EOAs
+
+EOAs actively participating in transactions within the Fraxtal ecosystem automatically accrue Flox incentives every epoch and their FXTL point balance will change at the end of each period. Earned rewards are directly added to the EOA address’ FXTL point balance.
+
+## Smart Contracts
+
+Smart contract developers can designate a Flox proxy address for each contract at the time of deployment. This proxy address is authorized to manage Flox incentives on behalf of the designated contract. By default, the proxy of a smart contract is the contract itself if no address is designated. Developers can either add a claim function to their contracts or set a Flox proxy address to receive the incentives. If a contract is deployed through an identical process as another EVM chain without designating a Flox proxy, then the contract address itself can claim its rewards. However, the proxy can be added at any time.
+
+This flexibility allows developers to specify what should have control over a contract's incentives. To manage Flox incentives, the designated manager must interact with the Fraxtal Points Contract.
+{/* [Need for an example code that developers need to include in their contracts] */}

@@ -1,0 +1,25 @@
+{
+  "index": {
+    "display": "hidden",
+    "type": "page",
+    "theme": {
+      "sidebar": false
+    }
+  },
+  "404": {
+    "title": "404",
+    "display": "hidden",
+    "theme": {
+      "breadcrumb": false,
+      "footer": false
+    }
+  },
+  "fraxtal": {
+    "title": "Fraxtal",
+    "type": "page"
+  },
+  "protocol": {
+    "title": "Protocol",
+    "type": "page"
+  }
+}

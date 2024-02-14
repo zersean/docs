@@ -1,0 +1,19 @@
+---
+title: Overview
+lang: en-US
+---
+
+# Overview
+
+The Fraxtal Blockspace Incentives system (referred to as "Flox") is the primary automated, recurring method that rewards both users and smart contract developers on Fraxtal. Every epoch (initially 7 days), EOA addresses that have spent gas on Fraxtal and the smart contracts that used gas are rewarded FXTL points proportional to the “Flox Algorithm.”
+
+Unlike previous attempts to reward/refund/rebate gas usage on chains to spur usage, the Flox system aims to reward users (EOAs) and contracts (dapp developers) significantly more incentives per $1 of gas spent than fee sharing programs (which cap out at simply returning the total fees captured by sequencers or validators). Additionally, the Flox system rewards both the user side of transactions (the gas payer) as well as the contracts which use the gas. In order to do this, the Flox Algorithm does two things: 1) calculates a transaction trace of gas used by contracts 2) applies a second algorithm to rank contract importance and additional criteria such as assets held by users and contracts at randomly selected blocks within the epoch.
+
+Utilizing FXTL as the currency of incentive, the Flox program aims to distribute value back to the users and developers in a manner that transcends transaction fee-sharing models in the early days of the network, and in the long term, it will align with the vision of sustainable revenue sharing.
+
+**Example 1**: A swap from USDC to FRAX through a Curve pool using 1inch. Incentives are distributed to 1-inch router contract, Curve pool contract, USDC contract, and FRAX contract.
+
+![Example 1 Image](/images/flox-example-1.png)
+
+**Example 2**: Borrowing FRAX from a Fraxlend pair against WBTC. Incentives go to Fraxlend Pair contract, WBTC contract, FRAX contract, and Chainlink oracle contract.
+![Example 1 Image](/images/flox-example-2.png)

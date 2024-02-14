@@ -1,0 +1,176 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('https://static.frax.com/fonts/aeonik-pro-300-normal.woff2') format('woff2');
+  font-weight: 300;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('https://static.frax.com/fonts/aeonik-pro-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('https://static.frax.com/fonts/aeonik-pro-500-normal.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Pro';
+  src: url('https://static.frax.com/fonts/aeonik-pro-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Mono';
+  src: url('https://static.frax.com/fonts/aeonik-mono-300-normal.woff2') format('woff2');
+  font-weight: 300;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Mono';
+  src: url('https://static.frax.com/fonts/aeonik-mono-400-normal.woff2') format('woff2');
+  font-weight: 400;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Mono';
+  src: url('https://static.frax.com/fonts/aeonik-mono-500-normal.woff2') format('woff2');
+  font-weight: 500;
+  font-style: 'normal';
+}
+@font-face {
+  font-family: 'Aeonik Mono';
+  src: url('https://static.frax.com/fonts/aeonik-mono-700-normal.woff2') format('woff2');
+  font-weight: 700;
+  font-style: 'normal';
+}
+
+@layer base {
+  :root {
+    --frax-gray-50: 241 243 245;
+    --frax-gray-100: 237 237 239;
+    --frax-gray-150: 196 195 198;
+    --frax-gray-200: 160 159 166;
+    --frax-gray-300: 126 125 134;
+    --frax-gray-400: 112 111 120;
+    --frax-gray-500: 80 79 87;
+    --frax-gray-600: 62 62 68;
+    --frax-gray-700: 52 52 58;
+    --frax-gray-800: 46 46 50;
+    --frax-gray-900: 40 40 44;
+    --frax-gray-1000: 35 35 38;
+    --frax-gray-1100: 28 28 31;
+    --frax-gray-1200: 22 22 24;
+    --frax-gray-1300: 18 18 18;
+  }
+}
+
+body {
+  @apply w-full  bg-frax-gray-1000 dark:bg-black !important;
+}
+
+.even\:nx-bg-gray-100:nth-child(2n) {
+  @apply bg-zinc-700  dark:bg-neutral-800 !important;
+}
+
+.nextra-sidebar-container {
+  ul:before {
+    @apply bg-frax-gray-500 dark:bg-frax-gray-800;
+  }
+  :hover {
+    @apply bg-transparent dark:bg-transparent !important;
+    @apply text-blue-500 dark:text-blue-400 !important;
+  }
+
+  > div:last-of-type,
+  ~ article > main > div:last-of-type,
+  ~ article > main h2 {
+    @apply border-frax-gray-500  dark:border-frax-gray-800 !important;
+  }
+
+  > div:last-of-type > div:first-of-type button {
+    @apply bg-transparent !important;
+  }
+}
+
+.nextra-card {
+  @apply bg-frax-gray-1000 border-frax-gray-500 border shadow-none  dark:bg-black !important;
+  :hover {
+    @apply bg-zinc-700  dark:bg-neutral-800 !important;
+  }
+}
+
+.nextra-callout {
+  @apply bg-blue-700 bg-opacity-20 dark:bg-blue-800 dark:bg-opacity-20 !important;
+}
+
+.nextra-search :focus {
+  @apply bg-gray-800 border-none dark:bg-gray-800 !important;
+}
+
+ul[data-headlessui-state='open'] {
+  @apply bg-frax-gray-1300 dark:bg-frax-gray-1000 !important;
+}
+
+ul[data-headlessui-state='open'] > li:hover {
+  @apply bg-frax-gray-1100 dark:bg-frax-gray-900 !important;
+}
+
+.nx-bg-primary-100 {
+  @apply bg-gray-800 text-blue-500  dark:bg-gray-800 dark:text-blue-400 !important;
+}
+
+.nx-bg-white {
+  @apply bg-frax-gray-1000 dark:bg-black !important;
+}
+
+.nx-bg-gray-100 {
+  @apply bg-frax-gray-1000 dark:bg-black !important;
+  @apply border-frax-gray-500 dark:border-gray-600 !important;
+}
+
+.nextra-content,
+.nextra-nav-container,
+.nextra-scrollbar {
+  @apply text-frax-gray-100  !important;
+}
+
+.nx-text-gray-500,
+.nx-text-blue-900,
+.nx-text-gray-600,
+.nx-text-gray-700,
+.nx-text-slate-900,
+.nx-text-gray-800 {
+  @apply text-frax-gray-100  !important;
+}
+
+.nx-border-blue-200,
+.nx-border-gray-300 {
+  @apply border-frax-gray-400 dark:border-frax-gray-600  !important;
+}
+
+.nx-sticky {
+  @apply shadow-none !important;
+}
+
+.nextra-scrollbar > div,
+hr {
+  @apply border-frax-gray-500  dark:border-frax-gray-800 !important;
+}
+
+.nextra-nav-container {
+  @apply border-frax-gray-500  border-b dark:border-frax-gray-800 !important;
+}
+
+@media (max-width: 767px) {
+  .nextra-sidebar-container {
+    @apply bg-frax-gray-1000 dark:bg-black !important;
+  }
+}
