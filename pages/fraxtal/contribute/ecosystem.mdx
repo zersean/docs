@@ -1,0 +1,42 @@
+---
+title: Ecosystem
+lang: en-US
+---
+
+# Adding Your Project to the Frax Ecosystem
+
+Follow these steps to add your project to the ecosystem data JSON file and have it featured on [Frax.com's Ecosystem Page](https://www.frax.com/ecosystem):
+
+## 1: Fork the Repository
+
+1. Navigate to the [FraxFinance/docs](https://github.com/FraxFinance/docs) repository on GitHub.
+2. Click on the "Fork" button in the top-right corner to create a copy of the repository in your own GitHub account.
+
+## 2: Add Your Project Data
+
+1. Locate the `ecosystem-data.json` file in the [docs/public](https://github.com/FraxFinance/docs/blob/master/public/ecosystem-data.json) folder of your forked repository.
+2. Create a new branch with the name of your own project as the branch name (ex. `frax-finance`).
+3. Edit the file and add an object representing your project to the `items` array. Ensure the following fields are included in your object:
+   - `key`: A unique identifier for your project, such as the name of the project. Make sure the chosen key has no spaces or capitals.
+   - `name`: The name of your project.
+   - `url`: The URL of your project's website.
+   - `description`: A brief description of your project (less than 180 characters).
+   - `tags`: An array of tags describing your project's category (can choose from `["DeFi", "DAO", "NFT", "Infra"]`).
+   - `imageUrl`: The URL of your project's logo image (must be square and good resolution). **Please note that your project's logo will be displayed in a circular format, similar to the existing projects featured on the [ecosystem page](https://www.frax.com/ecosystem)**
+   - `twitterXUrl` (optional): The URL of your project's Twitter/X account.
+   - `discordUrl` (optional): The URL of your project's Discord server.
+   - `telegramUrl` (optional): The URL of your project's Telegram group.
+
+## 3: Add Logo Image (if needed)
+
+1. If you don't have a URL for your logo image, add a PNG file with square dimensions to the public/images/ecosystem folder of your forked repository. **Please note that your project's logo will be displayed in a circular format, similar to the existing projects featured on the [ecosystem page](https://www.frax.com/ecosystem)**
+2. Update the `imageUrl` field in your project's object to https://docs.frax.com/images/ecosystem/your_image_name.png
+
+## 4: Submit a Pull Request
+
+1. Commit your changes and push them to your forked repository.
+2. Create a new pull request (PR) to merge your changes into the main FraxFinance/docs repository.
+3. Once your PR is approved and merged, your project will be included in the Frax ecosystem!
+4. It will appear on frax.com/ecosystem for everyone to see.
+
+Thank you for contributing to the Frax ecosystem! If you have any questions or need assistance, feel free to reach out to us.
