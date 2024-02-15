@@ -6,7 +6,8 @@
       "url": "https://etherscan.io/",
       "description": "Etherscan is a Block Explorer and Analytics Platform for Ethereum, a decentralized smart contracts platform.",
       "tags": ["Infra"],
-      "imageUrl": "https://avatars.githubusercontent.com/u/26205098?s=280&v=4"
+      "imageUrl": "https://avatars.githubusercontent.com/u/26205098?s=280&v=4",
+      "twitterXUrl": "https://twitter.com/etherscan"
     },
     {
       "key": "convex",
@@ -14,7 +15,10 @@
       "url": "https://www.convexfinance.com/",
       "description": "Convex is a platform that boosts rewards for CRV stakers and liquidity providers alike, all in a simple and easy to use interface.",
       "tags": ["DeFi"],
-      "imageUrl": "https://frax.imgix.net/tokens/cvx.png"
+      "imageUrl": "https://frax.imgix.net/tokens/cvx.png",
+      "twitterXUrl": "https://twitter.com/ConvexFinance",
+      "discordUrl": "https://discord.gg/TTEVTqY488",
+      "telegramUrl": "https://t.me/convexEth"
     },
     {
       "key": "curve",
@@ -22,7 +26,10 @@
       "url": "https://curve.fi/",
       "description": "Curve is DeFi's leading AMM, (Automated Market Maker). Hundreds of liquidity pools have been launched through Curve's factory and incentivized by Curve's DAO.",
       "tags": ["DeFi"],
-      "imageUrl": "https://frax.imgix.net/tokens/crv.png"
+      "imageUrl": "https://frax.imgix.net/tokens/crv.png",
+      "twitterXUrl": "https://twitter.com/CurveFinance",
+      "discordUrl": "https://discord.gg/rgrfS7W",
+      "telegramUrl": "https://t.me/curvefi"
     },
     {
       "key": "iq",
@@ -30,7 +37,10 @@
       "url": "https://iq.wiki/",
       "description": "IQ.wiki is the world's largest blockchain and crypto encyclopedia.",
       "tags": ["Infra"],
-      "imageUrl": "https://docs.frax.com/images/ecosystem/iq.png"
+      "imageUrl": "https://docs.frax.com/images/ecosystem/iq.png",
+      "twitterXUrl": "https://twitter.com/IQWIKI",
+      "discordUrl": "https://discord.gg/x9EWvTcPXt",
+      "telegramUrl": "https://t.me/everipedia"
     }
   ]
 }
