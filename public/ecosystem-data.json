@@ -51,6 +51,17 @@
       "imageUrl": "https://docs.frax.com/images/ecosystem/galaxycash.png",
       "twitterXUrl": "https://twitter.com/galaxy_cash",
       "telegramUrl": "https://t.me/Galaxy_Cash"
+    },
+    {
+      "key": "axelar",
+      "name": "Axelar",
+      "url": "https://axelar.network",
+      "description": "The programmable Web3 interoperability platform, scaling the next generation of internet applications to billions of users.",
+      "tags": ["Infra"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/axelar.png",
+      "twitterXUrl": "https://twitter.com/axelarnetwork",
+      "discordUrl": "https://discord.com/invite/aRZ3Ra6f7D",
+      "telegramUrl": "https://t.me/axelarcommunity"
     }
   ]
 }
