@@ -85,12 +85,12 @@
       "telegramUrl": "https://t.me/redstonefinance"
     },
     {
-      "key": "QiDao",
+      "key": "qidao",
       "name": "QiDao",
       "url": "https://mai.finance/",
       "description": "QiDao is an overcollateralized, crosschain stablecoin protocol that allows users to mint stablecoins natively against the value of their token collaterals",
       "tags": ["DeFi"],
-      "imageUrl": "https://github.com/Benjamin891/QiDaoImages/blob/main/QiDao%20Logo%20Framed%3DBlack%20Profile%20-%20Accent.png",
+      "imageUrl": "https://cdn.jsdelivr.net/gh/Benjamin891/QiDaoImages/QiDao%20Logo%20Framed%3DBlack%20Profile%20-%20Accent.png",
       "twitterXUrl": "https://twitter.com/QiDaoProtocol",
       "discordUrl": "https://discord.gg/wQKAJdmKJ9",
       "telegramUrl": "https://t.me/QiDaoProtocol"
