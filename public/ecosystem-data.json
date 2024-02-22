@@ -83,7 +83,7 @@
       "twitterXUrl": "https://twitter.com/redstone_defi",
       "discordUrl": "https://discord.com/invite/PVxBZKFr46",
       "telegramUrl": "https://t.me/redstonefinance"
-    }
+    },
     {
       "key": "QiDao",
       "name": "QiDao",
@@ -94,6 +94,6 @@
       "twitterXUrl": "https://twitter.com/QiDaoProtocol",
       "discordUrl": "https://discord.gg/wQKAJdmKJ9",
       "telegramUrl": "https://t.me/QiDaoProtocol"
-    },
+    }
   ]
 }
