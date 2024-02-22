@@ -94,6 +94,16 @@
       "twitterXUrl": "https://twitter.com/QiDaoProtocol",
       "discordUrl": "https://discord.gg/wQKAJdmKJ9",
       "telegramUrl": "https://t.me/QiDaoProtocol"
+    },
+    {
+      "key": "wombat",
+      "name": "Wombat Exchange",
+      "url": "https://wombat.exchange",
+      "description": "The only multi-chain and cross-chain, single-sided DEX. Introducing an innovative Bribe Market 2.0.",
+      "tags": ["DeFi"],
+      "imageUrl": "https://s2.coinmarketcap.com/static/img/coins/64x64/19623.png",
+      "twitterXUrl": "https://twitter.com/WombatExchange",
+      "discordUrl": "https://discord.gg/Wombat"
     }
   ]
 }
