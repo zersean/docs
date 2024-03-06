@@ -184,6 +184,16 @@
       "tags": ["DeFi"],
       "imageUrl": "https://avatars.githubusercontent.com/u/78463658?s=280&v=4",
       "twitterXUrl": "https://twitter.com/Adamantvault"
+    },
+    {
+      "key": "fraxdoge",
+      "name": "Frax Doge",
+      "url": "https://fraxdoge.xyz",
+      "description": "Wow! Much first! FXD Doge is very first meme on Frax, so pioneer, much trailblaze! Went to dark side of moon, now all in black and white! Fraxchain cool, like moon, but with more Doge. No colors, no worries, just Doge doing moon things. Join FXD, be part of first meme adventure on Frax, wow so historic!",
+      "tags": ["MEME"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/fraxdoge.png",
+      "twitterXUrl": "https://twitter.com/FraxDoge",
+      "telegramUrl": "https://t.me/frxdoge"
     }
   ]
 }
