@@ -214,6 +214,16 @@
       "tags": ["MEME"],
       "imageUrl": "https://docs.frax.com/images/ecosystem/kfc.png",
       "twitterXUrl": "https://twitter.com/krypto_chicken"
+    },
+    {
+      "key": "geckoterminal",
+      "name": "GeckoTerminal",
+      "url": "https://www.geckoterminal.com/",
+      "description": "A DEX tracker and crypto price charting tool. Track real-time cryptocurrency prices, trading volume, transactions, liquidity, and more across all blockchains.",
+      "tags": ["DeFi"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/geckoterminal.png",
+      "twitterXUrl": "https://twitter.com/GeckoTerminal",
+      "telegramUrl": "https://t.me/geckoterminal"
     }
   ]
 }
