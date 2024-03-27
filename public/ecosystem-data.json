@@ -294,6 +294,15 @@
       "discordUrl": "https://discord.gg/nZQZ2Br9yc",
       "telegramUrl": "https://t.me/ArchlyFinance",
       "twitterXUrl": "https://twitter.com/ArchlyFinance"
+    },
+    {
+      "key": "vaultcraft",
+      "name": "VaultCraft",
+      "url": "https://vaultcraft.io/",
+      "description": "Build, deploy, and zap into automated yield strategies with VaultCraft.",
+      "tags": ["DeFi"],
+      "imageUrl": "https://app.vaultcraft.io/images/tokens/vcx.svg",
+      "twitterXUrl": "https://twitter.com/VaultCraft_io"
     }
   ]
 }
