@@ -343,5 +343,15 @@
       "twitterXUrl": "https://twitter.com/BuildWithGrove",
       "discordUrl": "https://t.co/gnWHy1srj5",
     },
+    {
+      "key": "API3",
+      "name": "API3 DAO",
+      "url": "https://api3.org/",
+      "description": "API3 provides secure and reliable first-party data feeds that establish seamless connections between API providers and oracle smart contracts, thereby eliminating the need for third-party intermediaries and bolstering the overall integrity of the data.",
+      "tags": ["Infra", "DeFi"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/API3white.png",
+      "twitterXUrl": "https://twitter.com/API3DAO",
+      "discordURL": "https://discord.gg/api3dao"
+    }
   ]
 }
