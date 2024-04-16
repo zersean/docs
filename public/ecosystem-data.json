@@ -322,5 +322,15 @@
       "imageUrl": "https://docs.frax.com/images/ecosystem/supra.png",
       "twitterXUrl": "https://twitter.com/SUPRA_Labs"
     }
+    {
+    "key": "grove",
+      "name": "Grove",
+      "url": "https://www.grove.city/",
+      "description": "Backed by thousands of independent, globally distributed nodes, Grove's RPC endpoints abstract the complexities of building multi-chain dApps on decentralized infrastructure.",
+      "tags": ["Infra"],
+      "imageUrl": 'https://docs.frax.com/images/ecosystem/grove.png',
+      "twitterXUrl": "https://twitter.com/BuildWithGrove",
+      "discordUrl": "https://t.co/gnWHy1srj5",
+    },
   ]
 }
