@@ -236,17 +236,6 @@
       "telegramUrl": "https://t.me/frxdoge"
     },
     {
-      "key": "lenx",
-      "name": "LENX Finance",
-      "url": "https://lenx.finance/",
-      "description": "LENX is the omnichain Bitcoin liquidity protocol, enabling supply of native Bitcoin as liquidity to borrow omnichain assets with built-in lending.",
-      "tags": ["DeFi"],
-      "imageUrl": "https://gateway.pinata.cloud/ipfs/QmRxRBCJPwJFAELrWZPU55JUcf9Uf9wp6fVLeFgK6VRYEf",
-      "twitterXUrl": "https://twitter.com/LENX_Finance",
-      "discordUrl": "https://discord.gg/LENX",
-      "telegramUrl": "https://t.me/LENXCommunity"
-    },
-    {
       "key": "kfc",
       "name": "Krypto Fraxtal Chicken",
       "url": "https://www.kryptochicken.com",
@@ -372,9 +361,9 @@
       "imageUrl": "https://docs.frax.com/images/ecosystem/API3white.png",
       "twitterXUrl": "https://twitter.com/API3DAO",
       "discordURL": "https://discord.gg/api3dao"
-    }
+    },
     {
-    "key": "dein",
+      "key": "dein",
       "name": "DEIN",
       "url": "https://dein.fi/",
       "description": "An AI-driven, omni-chain, decentralized marketplace and adjudication system providing infrastructure for insurance and credit default swaps on anything.",
