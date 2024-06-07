@@ -50,7 +50,7 @@ const config: DocsThemeConfig = {
   },
   darkMode: true,
   chat: {
-    link: 'https://discord.com/invite/UJVtDTFRaA',
+    link: 'https://discord.gg/BagEXpT359',
   },
   head: () => {
     const router = useRouter();
