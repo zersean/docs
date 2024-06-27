@@ -397,22 +397,32 @@
       "name": "Comet Protocol",
       "url": "https://cometbridge.app/",
       "description": "The First Seamless Interlink Communication Protocol Between All Bitcoin and Ethereum Ecosystems.",
-      "tags": ["Infra","Bridge"],
+      "tags": ["Infra", "Bridge"],
       "imageUrl": "https://raw.githubusercontent.com/cometbridge/assets/main/comet.png",
       "twitterXUrl": "https://x.com/Comet_Protocol",
       "discordURL": "https://discord.com/invite/ZTFQNNXcYs"
+    },
+    {
+      "key": "Cycnus",
+      "name": "Cycnus University",
+      "url": "https://www.cycnus.org",
+      "description": "The Cycnus University is committed to promoting the development of Web 3.0 + X disciplines, using Fraxtal as the digitalized infrastructure to build an innovative and dynamic educational platform that allows everyone to realize their blockchain dreams.",
+      "tags": ["DAO", "Infra", "Education"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/CycnusUniversity.png",
+      "twitterXUrl": "https://x.com/CycnusDAO",
+      "discordURL": "https://discord.gg/mSDfzsEbxJ",
+      "telegramUrl": "https://t.me/CycnusUniversity"
     },
     {
       "key": "gemach",
       "name": "Gemach Gbot Telegram bot",
       "url": "https://t.me/GemachEVM_Bot?start=558596665",
       "description": "Introducing the Gemach Gbot, your ultimate trading bot for EVM chains. With advanced features like token sniping, limit orders, and real-time alerts, Gbot automates and optimizes your trading strategies. Plus, our lucrative referral program lets you earn 30% rewards on every referral.",
-      "tags": ["Infra","Bridge","DeFi"],
+      "tags": ["Infra", "Bridge", "DeFi"],
       "imageUrl": "https://docs.frax.com/images/ecosystem/gemach.png",
       "twitterXUrl": "https://x.com/gemach_io",
       "discordURL": "https://discord.com/invite/QDHsGPQdx3",
       "telegramUrl": "https://t.me/gemach_public"
     }
-
   ]
 }
