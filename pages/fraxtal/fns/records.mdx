@@ -1,0 +1,26 @@
+---
+title: records
+lang: en-US
+---
+# Frax Name Records
+## Overview
+Frax Name Records allow users to store and manage various types of information associated with their Frax Names within the Frax Name Service (FNS). These records can include addresses, text fields, and other data types, enabling users to link their Frax Names to various blockchain resources and metadata. The records are versatile and can be used to enhance the functionality of Frax Names in decentralized applications, identity management, and more.
+## Records Permissions
+Ownership of a Frax Name grants full control over the associated records. The owner can create, update, or delete records at any time. This control ensures that only the owner of the Frax Name can manage the data associated with it.
+## Public Records
+Public records are accessible to anyone and are commonly used to associate a Frax Name with blockchain addresses, metadata, or other publicly visible information. These records are controlled by the FNS Public Resolver contract. Currently, the FNS UI supports certain standard records, which are listed in the table below. However, more standard records are expected to be introduced in the future.
+### FNS Standard Record
+| **Record Description**     |**Record Type** |**Record Key**             | **Example**                                       |
+|:-------------------------	 |:--------------	|:------------------------	|:------------------------------------------------	|
+| **Fraxtal Record Address** |**Address**     |{<code>addr</code>}     	  |{<code>0x111...111</code>}                         |
+| **Nickname**               |**Text**      	|{<code>name</code>}      	|John Smith                                         |
+| **Short Bio**              |**Text**      	|{<code>description</code>} |I am a Frax Maxi!                                  |
+| **Avatar**                 |**Text**      	|{<code>avatar</code>}      |{<code>https://www.mywebsite.com/avatar.png</code>}|
+| **Twitter**                |**Text**      	|{<code>com.twitter</code>} |fraxfinance                                        |
+| **Telegram**               |**Text**      	|{<code>org.telegram</code>}|fraxfinance                                        |
+| **Github**                 |**Text**      	|{<code>com.github</code>}  |fraxfinance                                        |
+| **Discord**                |**Text**      	|{<code>com.discord</code>} |fraxfinance                                        |
+
+
+## Owned Records
+In addition to public records, there is also an owned resolver, which is managed by Frax Finance. This resolver controls tags, names, and labels that Frax Finance allocates to each address or Frax Name. These owned records allow Frax Finance to maintain a level of control over specific records within the ecosystem, ensuring consistency where needed.
