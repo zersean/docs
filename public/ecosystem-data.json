@@ -465,6 +465,15 @@
       "imageUrl": "https://snailmint.ing/fxs_snail_2.png"
     },
     {
+      "key": "cs",
+      "name": "CryptoSports",
+      "url": "https://www.playcryptosports.com/",
+      "description": "DFS on the blockchain. A fantasy team that is truly yours",
+      "tags": ["NFT"],
+      "imageUrl": "https://docs.frax.com/images/ecosystem/cryptosports.png", 
+      "discordURL": "https://discord.gg/NpAw6nmzbS"
+    },
+    {
       "key": "pumpfaxt",
       "name": "Pumpfaxt",
       "url": "https://pumpfaxt.com",
