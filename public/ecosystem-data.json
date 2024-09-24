@@ -1,6 +1,16 @@
 {
   "items": [
     {
+      "key": "ionic",
+      "name": "Ionic",
+      "url": "https://ionic.money/",
+      "description": "Ionic Protocol is a multichain money market for yield bearing assets with a focus on LSTs, LRTs, and RWAs.",
+      "tags": ["DeFi"],
+      "imageUrl": "https://doc.ionic.money/~gitbook/image?url=https%3A%2F%2F1954749119-files.gitbook.io%2F%7E%2Ffiles%2Fv0%2Fb%2Fgitbook-x-prod.appspot.com%2Fo%2Fspaces%252F4L4EczL4rCp3jyJhAxHG%252Fuploads%252FXxmvC5cXCopD0HeFUCd0%252Flogo%25201.png%3Falt%3Dmedia%26token%3D7b5aad7a-0c55-489a-b305-db58f3635601&width=768&dpr=2&quality=100&sign=ded3ca72&sv=1",
+      "twitterXUrl": "https://twitter.com/ionicmoney",
+      "discordUrl": "https://discord.gg/ionicmoney"
+    },
+    {
       "key": "dtrinity",
       "name": "dTRINITY",
       "url": "https://dtrinity.org/",
@@ -480,7 +490,7 @@
       "url": "https://www.playcryptosports.com/",
       "description": "DFS on the blockchain. A fantasy team that is truly yours",
       "tags": ["NFT"],
-      "imageUrl": "https://docs.frax.com/images/ecosystem/cryptosports.png", 
+      "imageUrl": "https://docs.frax.com/images/ecosystem/cryptosports.png",
       "discordURL": "https://discord.gg/NpAw6nmzbS"
     },
     {
