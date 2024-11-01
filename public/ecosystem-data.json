@@ -523,6 +523,16 @@
       "imageUrl": "https://res.cloudinary.com/duv0g402y/raw/upload/src/assets/upnodewhitebg.png",
       "twitterXUrl": "https://twitter.com/upnodeIntern",
       "telegramUrl": "https://t.me/upnodeIntern"
+    },
+    {
+      "key": "zerion",
+      "name": "Zerion",
+      "url": "https://zerion.io/",
+      "description": "Zerion is your crypto wallet for everything onchain. Easily manage tokens, NFTs, DeFi positions, and safely explore dApps across 41+ chains—all in one app.",
+      "tags": ["DeFi"],
+      "imageUrl": "https://pbs.twimg.com/profile_images/1639841598648512515/RXG5M-pv_400x400.jpg",
+      "twitterXUrl": "https://x.com/zerion",
+      "discordURL": "https://zerion.io/discord"
     }
   ]
 }
